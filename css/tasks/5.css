@@ -1,0 +1,23 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  border: 5px solid grey;
+}
+
+a[title] {
+  border-color: pink;
+}
+
+a[href*="contact"] {
+  border-color: orange;
+}
+
+a[href^="https"] {
+  border-color: green;
+}

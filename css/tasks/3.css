@@ -1,0 +1,36 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p:first-child {
+  font-size: 150%;
+}
+
+p:first-child:first-line {
+  color: red;
+}
+
+table {
+  width: 30%;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #333;
+  color: white;
+}
